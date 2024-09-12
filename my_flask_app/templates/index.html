@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Գրանցում</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="container">
+        <section>
+            <h1 class="main-top">Գրանցման ձև</h1>
+            <form method="post">
+                <label for="username">Օգտատիրոջ անունը:</label>
+                <input type="text" id="username" name="username" class="username" required>
+                <br>
+                <label for="password">Գաղտնաբառը:</label>
+                <input type="password" id="password" name="password" class="password" required>
+                <br>
+                <button type="submit" class="login-btn">Պահպանել</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
